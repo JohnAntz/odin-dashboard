@@ -4,7 +4,378 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="syles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="searchBar">
+          <div class="leftCluster">
+            <button class="lupa">
+              <img
+                class="lupaImg"
+                src="./imgs/magnify.svg"
+                alt="magnifying glass" />
+            </button>
+            <input type="text" />
+          </div>
+          <div class="rightCluster">
+            <button class="notification">
+              <img
+                class="notificationImg"
+                src="./imgs/bell-badge.svg"
+                alt="notification" />
+            </button>
+            <img
+              class="smallImg"
+              src="/odin-dashboard/imgs/Noivern.webp"
+              alt="Noivern profile picture." />
+            <h3>John Antzoulis</h3>
+          </div>
+        </div>
+        <div class="userPanel">
+          <div class="leftDiv">
+            <img
+              class="bigImg"
+              src="./imgs/Noivern.webp"
+              alt="Noivern profile picture." />
+            <div class="leftText">
+              <h4>Hi there,</h4>
+              <h2>John Antzoulis (@JohnAntz)</h2>
+            </div>
+          </div>
+          <div class="rightDiv">
+            <button class="blueButton">New</button
+            ><button class="blueButton">Upload</button
+            ><button class="blueButton">Share</button>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <h2 class="title">
+          <img
+            class="logo"
+            src="./imgs/pokeball.svg"
+            alt="Pokeball logo" />Dashboard
+        </h2>
+        <div class="menu">
+          <ul>
+            <li>
+              <img class="listIcon" src="./imgs/home.svg" alt="Home" />Home
+            </li>
+            <li>
+              <img
+                class="listIcon"
+                src="./imgs/account.svg"
+                alt="Profile" />Profile
+            </li>
+            <li>
+              <img
+                class="listIcon"
+                src="./imgs/message.svg"
+                alt="Messages" />Messages
+            </li>
+            <li>
+              <img
+                class="listIcon"
+                src="./imgs/history.svg"
+                alt="Histoy" />History
+            </li>
+            <li>
+              <img
+                class="listIcon"
+                src="./imgs/note-multiple.svg"
+                alt="Tasks" />Tasks
+            </li>
+            <li>
+              <img
+                class="listIcon"
+                src="./imgs/account-group.svg"
+                alt="Communities" />Communities
+            </li>
+          </ul>
+        </div>
+        <div class="settings">
+          <ul>
+            <li>
+              <img
+                class="listIcon"
+                src="./imgs/cog-outline.svg"
+                alt="Settings" />Settings
+            </li>
+            <li>
+              <img
+                class="listIcon"
+                src="./imgs/face-agent.svg"
+                alt="Support" />Support
+            </li>
+            <li>
+              <img
+                class="listIcon"
+                src="./imgs/shield-account.svg"
+                alt="Privacy" />Privacy
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="mainContent">
+        <div class="projects">
+          <div class="projectCard">
+            <section class="textContent">
+              <h3>Project Name</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                rerum at delectus, quasi recusandae nam reprehenderit aliquid
+                non quisquam quos nesciunt cumque explicabo praesentium
+                cupiditate dolores voluptate laborum distinctio suscipit.
+              </p>
+            </section>
+            <div class="buttonContent">
+              <button class="contentButton">
+                <img
+                  class="btnImg"
+                  src="./imgs/star-outline.svg"
+                  alt="Star button showing interest in the project" /></button
+              ><button class="contentButton">
+                <img
+                  class="btnImg"
+                  src="./imgs/source-fork.svg"
+                  alt="Star button showing interest in the project" /></button
+              ><button class="contentButton">
+                <img
+                  class="btnImg"
+                  src="./imgs/eye-plus-outline.svg"
+                  alt="Star button showing interest in the project" />
+              </button>
+            </div>
+          </div>
+          <div class="projectCard">
+            <section class="textContent">
+              <h3>Project Name</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                rerum at delectus, quasi recusandae nam reprehenderit aliquid
+                non quisquam quos nesciunt cumque explicabo praesentium
+                cupiditate dolores voluptate laborum distinctio suscipit.
+              </p>
+            </section>
+            <div class="buttonContent">
+              <button class="contentButton">
+                <img
+                  class="btnImg"
+                  src="./imgs/star-outline.svg"
+                  alt="Star button showing interest in the project" /></button
+              ><button class="contentButton">
+                <img
+                  class="btnImg"
+                  src="./imgs/source-fork.svg"
+                  alt="Star button showing interest in the project" /></button
+              ><button class="contentButton">
+                <img
+                  class="btnImg"
+                  src="./imgs/eye-plus-outline.svg"
+                  alt="Star button showing interest in the project" />
+              </button>
+            </div>
+          </div>
+          <div class="projectCard">
+            <section class="textContent">
+              <h3>Project Name</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                rerum at delectus, quasi recusandae nam reprehenderit aliquid
+                non quisquam quos nesciunt cumque explicabo praesentium
+                cupiditate dolores voluptate laborum distinctio suscipit.
+              </p>
+            </section>
+            <div class="buttonContent">
+              <button class="contentButton">
+                <img
+                  class="btnImg"
+                  src="./imgs/star-outline.svg"
+                  alt="Star button showing interest in the project" /></button
+              ><button class="contentButton">
+                <img
+                  class="btnImg"
+                  src="./imgs/source-fork.svg"
+                  alt="Star button showing interest in the project" /></button
+              ><button class="contentButton">
+                <img
+                  class="btnImg"
+                  src="./imgs/eye-plus-outline.svg"
+                  alt="Star button showing interest in the project" />
+              </button>
+            </div>
+          </div>
+          <div class="projectCard">
+            <section class="textContent">
+              <h3>Project Name</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                rerum at delectus, quasi recusandae nam reprehenderit aliquid
+                non quisquam quos nesciunt cumque explicabo praesentium
+                cupiditate dolores voluptate laborum distinctio suscipit.
+              </p>
+            </section>
+            <div class="buttonContent">
+              <button class="contentButton">
+                <img
+                  class="btnImg"
+                  src="./imgs/star-outline.svg"
+                  alt="Star button showing interest in the project" /></button
+              ><button class="contentButton">
+                <img
+                  class="btnImg"
+                  src="./imgs/source-fork.svg"
+                  alt="Star button showing interest in the project" /></button
+              ><button class="contentButton">
+                <img
+                  class="btnImg"
+                  src="./imgs/eye-plus-outline.svg"
+                  alt="Star button showing interest in the project" />
+              </button>
+            </div>
+          </div>
+          <div class="projectCard">
+            <section class="textContent">
+              <h3>Project Name</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                rerum at delectus, quasi recusandae nam reprehenderit aliquid
+                non quisquam quos nesciunt cumque explicabo praesentium
+                cupiditate dolores voluptate laborum distinctio suscipit.
+              </p>
+            </section>
+            <div class="buttonContent">
+              <button class="contentButton">
+                <img
+                  class="btnImg"
+                  src="./imgs/star-outline.svg"
+                  alt="Star button showing interest in the project" /></button
+              ><button class="contentButton">
+                <img
+                  class="btnImg"
+                  src="./imgs/source-fork.svg"
+                  alt="Star button showing interest in the project" /></button
+              ><button class="contentButton">
+                <img
+                  class="btnImg"
+                  src="./imgs/eye-plus-outline.svg"
+                  alt="Star button showing interest in the project" />
+              </button>
+            </div>
+          </div>
+          <div class="projectCard">
+            <section class="textContent">
+              <h3>Project Name</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                rerum at delectus, quasi recusandae nam reprehenderit aliquid
+                non quisquam quos nesciunt cumque explicabo praesentium
+                cupiditate dolores voluptate laborum distinctio suscipit.
+              </p>
+            </section>
+            <div class="buttonContent">
+              <button class="contentButton">
+                <img
+                  class="btnImg"
+                  src="./imgs/star-outline.svg"
+                  alt="Star button showing interest in the project" /></button
+              ><button class="contentButton">
+                <img
+                  class="btnImg"
+                  src="./imgs/source-fork.svg"
+                  alt="Star button showing interest in the project" /></button
+              ><button class="contentButton">
+                <img
+                  class="btnImg"
+                  src="./imgs/eye-plus-outline.svg"
+                  alt="Star button showing interest in the project" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="rightContent">
+          <section class="announcements">
+            <h3>Announcements</h3>
+            <div class="annContainer">
+              <section class="annCard">
+                <h4>Title</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae soluta nemo, asperiores nihil quasi a.
+                </p>
+              </section>
+              <hr />
+              <section class="annCard">
+                <h4>Title</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae soluta nemo, asperiores nihil quasi a.
+                </p>
+              </section>
+              <hr />
+              <section class="annCard">
+                <h4>Title</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestiae soluta nemo, asperiores nihil quasi a.
+                </p>
+              </section>
+            </div>
+          </section>
+          <section class="trending">
+            <h3>Trending</h3>
+            <div class="trendContainer">
+              <section class="trendCard">
+                <img
+                  class="smallImg"
+                  src="/odin-dashboard/imgs/Noivern.webp"
+                  alt="Noivern profile picture." />
+                <section class="trendText">
+                  <h4>@UserName</h4>
+                  <p>User name Manolo</p>
+                </section>
+              </section>
+              <section class="trendCard">
+                <img
+                  class="smallImg"
+                  src="/odin-dashboard/imgs/Noivern.webp"
+                  alt="Noivern profile picture." />
+                <section class="trendText">
+                  <h4>@UserName</h4>
+                  <p>User name Manolo</p>
+                </section>
+              </section>
+              <section class="trendCard">
+                <img
+                  class="smallImg"
+                  src="/odin-dashboard/imgs/Noivern.webp"
+                  alt="Noivern profile picture." />
+                <section class="trendText">
+                  <h4>@UserName</h4>
+                  <p>User name Manolo</p>
+                </section>
+              </section>
+              <section class="trendCard">
+                <img
+                  class="smallImg"
+                  src="/odin-dashboard/imgs/Noivern.webp"
+                  alt="Noivern profile picture." />
+                <section class="trendText">
+                  <h4>@UserName</h4>
+                  <p>User name Manolo</p>
+                </section>
+              </section>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
